@@ -2,7 +2,7 @@
 - Project name: BASICS
 - Unity version: Unity 2023.2.22f1
 - Active game object:
-  - Name: Player
+  - Name: Canvas
   - Tag: Untagged
-  - Layer: Default
+  - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

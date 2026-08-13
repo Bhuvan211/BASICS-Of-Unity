@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] private float speed = 3f;
+    [SerializeField] private float speed = 1f, rotationSpeed = 3f;
     [SerializeField] private float jumpForce = 5f;
     //[SerializeField] private int isGrounded = 0;
     [SerializeField] private Rigidbody rb ;
+    [SerializeField] private bool Turnright=false;
+    [SerializeField] private bool Turnleft=false;
 
     private void Awake()
     {
@@ -16,7 +18,8 @@ public class Movement : MonoBehaviour
     private void Update()
     {
         //ContinewMovement();
-        MovePlayer();        
+        MovePlayer();
+        Rotattion();
     }
     private void MovePlayer()
     {
@@ -34,14 +37,14 @@ public class Movement : MonoBehaviour
         //    rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         //}
     }
-    public void turnLeft()
-    {
-        transform.Rotate(0,10f,0);
-    }
-    public void turnRight()
-    {
-        transform.Rotate(0, -10f, 0);
-    }
+    //public void turnLeft()
+    //{
+    //    transform.Rotate(0,10f,0);
+    //}
+    //public void turnRight()
+    //{
+    //    transform.Rotate(0, -10f, 0);
+    //}
     public void Accelerate()
     {
         speed += 1f;
@@ -64,4 +67,33 @@ public class Movement : MonoBehaviour
     //{
     //    transform.Translate(Vector3.forward * Time.deltaTime * speed, Space.World);
     //}
+    public void Startturnright()
+    {
+        Turnright=true;
+    }
+    public void Startturnleft()
+    {
+        Turnleft = true;
+    }
+    public void Stopturnright()
+    {
+        Turnright = false;
+    }
+    public void Stopturnleft() 
+    { 
+        Turnleft = false; 
+    }
+    public void Rotattion()
+    {
+        if (Turnright)
+        {
+            transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
+        }
+        if (Turnleft)
+        {
+            transform.Rotate(0, -rotationSpeed * Time.deltaTime, 0);
+        }
+
+
+    }
 }
