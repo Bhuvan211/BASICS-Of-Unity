@@ -20,7 +20,8 @@ public class Movement : MonoBehaviour
     }
     private void MovePlayer()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed, Space.World);
+        //transform.Translate(Vector3.forward * Time.deltaTime * speed, Space.World);
+        transform.position += transform.forward * Time.deltaTime * speed;
         Debug.Log("Accelerate" + speed);
         //float HorizontalInput = Input.GetAxis("Horizontal");
         //float VerticalInput = Input.GetAxis("Vertical");
