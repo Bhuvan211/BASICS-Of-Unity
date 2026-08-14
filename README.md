@@ -43,6 +43,7 @@
 | 🏎️ `RacingGame` | Turning, acceleration & braking controls | ✅ |
 | 🏃 `Endless-Runner` | Continuous forward movement & obstacles | ✅ |
 | 👻 `Hide-Show-Player` | Object visibility / activation toggling | ✅ |
+| 🌊 `Smooth-Movement` | Lerp / interpolation-based smooth movement | ✅ |
 
 </div>
 
