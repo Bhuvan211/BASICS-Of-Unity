@@ -13,14 +13,14 @@
 <!-- Badges -->
 <img src="https://img.shields.io/badge/Unity-2023.2.22f1-000000?style=for-the-badge&logo=unity&logoColor=white"/>
 <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-<img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Mac-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Platform-Mobile-blue?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Status-Learning%20Project-orange?style=for-the-badge"/>
 
 <br/><br/>
 
-<img src="https://img.shields.io/github/last-commit/Bhuvan211/BASICS-Of-Unity?style=flat-square&color=00C9FF"/>
-<img src="https://img.shields.io/github/repo-size/Bhuvan211/BASICS-Of-Unity?style=flat-square&color=92FE9D"/>
-<img src="https://img.shields.io/github/stars/Bhuvan211/BASICS-Of-Unity?style=flat-square&color=yellow"/>
+<img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/BASICS-Of-Unity?style=flat-square&color=00C9FF"/>
+<img src="https://img.shields.io/github/repo-size/YOUR_USERNAME/BASICS-Of-Unity?style=flat-square&color=92FE9D"/>
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME/BASICS-Of-Unity?style=flat-square&color=yellow"/>
 
 </div>
 
@@ -95,7 +95,7 @@ BASICS-Of-Unity/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Bhuvan211/BASICS-Of-Unity.git
+   git clone https://github.com/YOUR_USERNAME/BASICS-Of-Unity.git
    ```
 
 2. **Open with Unity Hub**
