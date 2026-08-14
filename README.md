@@ -40,9 +40,9 @@
 
 | Scene | Concept Practiced | Status |
 |:------|:------------------|:------:|
-| 🏎️ `RacingGame` | Turning, acceleration & braking controls | ✅ |
 | 🏃 `Endless-Runner` | Continuous forward movement & obstacles | ✅ |
 | 👻 `Hide-Show-Player` | Object visibility / activation toggling | ✅ |
+| 🏎️ `RacingGame` | Turning, acceleration & braking controls | ✅ |
 | 🌊 `Smooth-Movement` | Lerp / interpolation-based smooth movement | ✅ |
 
 </div>
